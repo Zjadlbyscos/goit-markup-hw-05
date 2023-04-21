@@ -59,6 +59,19 @@ header {
   padding-left: 0;
   padding-right: 345px;
 }
+.nav-underline{
+  position: relative;
+}
+.nav-underline:after{
+  content:'';
+  position: absolute;
+  height: 4px;
+  top: 44px;
+  left: 0;
+  right: 0;
+  background-color: var(--brand-color-one);
+  border-radius: 2px;
+}
 
 .buttons {
   display: flex;
