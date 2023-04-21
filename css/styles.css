@@ -11,6 +11,8 @@
   --border-color-header: #ececec;
   --icon-color-1: #afb1b8;
   --icon-color-2: rgba(255, 255, 255, 0.1);
+  --icon-black:#000000;
+
 }
 /*conteners */
 * {
@@ -505,8 +507,33 @@ transition-duration:500ms;
   /* EFEKT ZNIKANIA*/
   transform: translate(-30%, -30%) scale(0) rotate(-30deg);
   transform-origin: center center;
-  background-color: var(--background-color-section);
+  background-color: var(--background-page-color);
   opacity: 0;
   transition-property:transform opacity background-color;
   transition-duration:500ms;
 }
+ .btn-close {
+  /* pozycja */
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 0;
+  right: 0;
+  margin: 8px;
+ /* krawedzie i tło */
+  fill:var(--icon-black);
+  background-color: var(--brand-color-white);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.btn-close:hover,
+.btn-close:focus {
+  background-color: var(--brand-color-one);
+  fill: var(--brand-color-white);
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+} 
