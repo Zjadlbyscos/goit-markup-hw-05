@@ -12,6 +12,7 @@
   --icon-color-1: #afb1b8;
   --icon-color-2: rgba(255, 255, 255, 0.1);
   --icon-black:#000000;
+  --background-photo-what-we-do:#2f303acc;
 
 }
 /*conteners */
@@ -248,6 +249,28 @@ ul {
   justify-content: space-between;
   gap: 30px;
 }
+.what-we-do-item{
+  position: relative;
+}
+
+.what-we-do-photo-text{
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+position: absolute;
+left: 0;
+right: 0;
+bottom: 0;
+height: 70px;
+background-color:var(--background-photo-what-we-do);
+color:var(--brand-color-white);
+cursor:default;
+
+
+}
 
 .section-what-we-do {
   display: flex;
@@ -255,6 +278,8 @@ ul {
   gap: 50px;
   padding-top: 0;
 }
+
+
 .team {
   background-color: var(--brand-color-background-team);
 }
