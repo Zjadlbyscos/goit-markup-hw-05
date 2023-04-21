@@ -176,6 +176,8 @@ ul {
   background-repeat: no-repeat;
   max-width: 1600px;
   margin: 0 auto;
+  
+
 }
 .flex-slogan {
   display: flex;
@@ -185,6 +187,7 @@ ul {
   gap: 30px;
   padding-top: 200px;
   padding-bottom: 200px;
+
 }
 .section {
   padding-bottom: 94px;
