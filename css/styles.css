@@ -25,6 +25,11 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
+:hover{
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
 
 .container {
   max-width: 1200px;
@@ -117,6 +122,9 @@ ul {
 .nav:hover,
 .nav:focus {
   color: var(--brand-color-one);
+  transition-property: background-color, fill;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-header,
 .tel-header {
@@ -357,6 +365,7 @@ ul {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
   cursor: pointer;
+
 }
 
 .order-service {
@@ -533,7 +542,4 @@ transition-duration:500ms;
 .btn-close:focus {
   background-color: var(--brand-color-one);
   fill: var(--brand-color-white);
-  transition-property: background-color, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-} 
+}
