@@ -57,7 +57,11 @@
           <div class="container">
             <div class="flex-slogan">
               <h1 class="slogan">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-              <button class="button order-service" type="button">
+              <button
+                data-modal-open
+                class="button order-service"
+                type="button"
+              >
                 Zamów usługe
               </button>
             </div>
@@ -383,6 +387,16 @@
         </div>
       </div>
     </footer>
+    <!-- div dla okno modalnego -->
+    <div data-modal class="is-hidden backdrop">
+
+      <div class="modal">
+        <button data-modal-close class="btn-close">
+          x
+        </button>
+      </div>
+    </div>
     <script src="./js/modal.js"></script>
+    <!-- skrypt dla okna modalnego -->
   </body>
 </html>
