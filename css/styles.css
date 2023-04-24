@@ -26,11 +26,6 @@ body {
   font-weight: 400;
   font-size: 16px;
 }
-:hover {
-  transition-property: background-color, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
 .container {
   max-width: 1200px;
@@ -90,6 +85,8 @@ header {
 .gallery {
   border-bottom: 1px solid var(--border-color-galery);
   box-shadow: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .gallery:hover,
 .gallery:focus {
@@ -118,6 +115,8 @@ header {
   vertical-align: Top;
   letter-spacing: 0, 03em;
   padding: 49px 45px 49px 24px;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .overlay:hover .overlay-content {
   transform: translatey(0);
@@ -156,14 +155,13 @@ ul {
   text-decoration: none;
   color: var(--brand-color-text-black);
   vertical-align: middle;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .nav:hover,
 .nav:focus {
   color: var(--brand-color-one);
-  transition-property: background-color, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mail-header,
 .tel-header {
@@ -174,6 +172,8 @@ ul {
   text-decoration: none;
   color: var(--brand-color-grey);
   fill: var(--brand-color-grey);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel-header {
   vertical-align: middle;
@@ -367,6 +367,8 @@ ul {
   background-color: var(--brand-color-white);
   fill: var(--icon-color-1);
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .elipse:hover,
 .elipse:focus {
@@ -393,6 +395,8 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .box-custommers:hover {
   border: 1px solid var(--brand-color-one);
@@ -413,6 +417,8 @@ ul {
   padding: 6px 22px;
   cursor: pointer;
   box-shadow: none;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
 .button:focus {
@@ -484,18 +490,24 @@ footer {
   letter-spacing: 0.03em;
   text-decoration-line: underline;
   color: rgba(255, 255, 255, 0.6);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .tel-footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-footer {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--brand-color-white);
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .address-footer:hover,
@@ -588,6 +600,8 @@ footer {
   height: 30px;
   border-radius: 50%;
   cursor: pointer;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .btn-close:hover,
 .btn-close:focus {
